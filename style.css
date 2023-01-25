@@ -580,6 +580,17 @@ footer{
       margin-top: 1.8rem;
       width: 50%;
 }
+.content-boxs .first a{
+    display: inline-block;
+    margin: .5rem;
+    margin-top: 5%;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--text-color);
+}
+.content-boxs .first a:hover{
+    color: #B73225;
+}
 .box .link-name{
     color: #fff;
     font-size: 18px;
@@ -685,51 +696,6 @@ footer{
 .bottom-details .bottom-text a{
     margin-right: 10px;
 }
-@media (max-width: 900px){
-    .content-boxs{
-      flex-wrap: wrap;
-    }
-    .content-boxs .box img{
-      width: 80%;
-    }
-    .input-box{
-      width: 40%;
-      margin-top: 10px;
-    }
-  }
-  @media (max-width: 700px){
-    footer{
-      position: relative;
-    }
-    .content-boxs .box{
-      width: calc(100% / 2 - 10px);
-    }
-    .content-boxs .box img{
-      width: 45%;
-    }
-    .input-box{
-      width: 60%;
-    }
-    .bottom-details .bottom-text span,
-    .bottom-details .bottom-text a{
-      font-size: 12px;
-    }
-  }
-  @media (max-width: 520px){
-    .content-boxs .box{
-      width: calc(100% / 2 - 10px);
-    }
-    .content-boxs .box img{
-      width: 60%;
-    }
-    .input-box{
-      width: 100%;
-    }
-  }  
-
-
-
-
 
 /*------- Finish Project ---------
 
@@ -887,6 +853,49 @@ footer{
     }
 
 /*---------- Footer ---------- */
-
+@media (max-width: 900px){
+    .content-boxs{
+      flex-wrap: wrap;
+    }
+    .content-boxs .box img{
+      width: 80%;
+    }
+    .input-box{
+      width: 40%;
+      margin-top: 10px;
+    }
+  }
+  @media (max-width: 700px){
+    footer{
+      position: relative;
+    }
+    .content-boxs .box{
+      width: calc(100% / 2 - 10px);
+    }
+    .content-boxs .box img{
+      width: 45%;
+    }
+    .input-box{
+      width: 60%;
+    }
+    .bottom-details .bottom-text span,
+    .bottom-details .bottom-text a{
+      font-size: 12px;
+    }
+    .content-boxs .first a{
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+  }
+  @media (max-width: 520px){
+    .content-boxs .box{
+      width: calc(100% / 2 - 10px);
+    }
+    .content-boxs .box img{
+      width: 60%;
+    }
+    .input-box{
+      width: 100%;
+    }
 }
-
+}
