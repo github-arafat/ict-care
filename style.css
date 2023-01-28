@@ -618,7 +618,7 @@ footer{
 .box p{
       font-size: 14px;
       font-weight: 300;
-      margin-top: 5px;
+      margin-bottom: .5rem;
 }
 .box span{
       margin-top: 10px;
