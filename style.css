@@ -612,7 +612,7 @@ footer{
     list-style: none;
 }
 .box h4{
-      font-weight: 300;
+      font-weight: 400;
       font-size: 15px;
 }
 .box p{
@@ -898,4 +898,20 @@ footer{
       width: 100%;
     }
 }
+}
+@media (max-width: 400px){
+    .header-text h1{
+        margin-top: 100%;
+        font-size: 28px;
+    }
+    #teacher-section .sub-title{
+        font-size: 25px;
+    }
+    .bottom-details .bottom-text span,
+    .bottom-details .bottom-text a{
+      font-size: 11px;
+    }
+    .mission-2 h1{
+        font-size: 1.6rem;
+    }
 }
