@@ -1,4 +1,4 @@
-/*--------- Google Font - Poppins ------------*/
+/*  !! Google Font !!   */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 *{
@@ -11,7 +11,10 @@
 html{
     scroll-behavior: smooth;
 }
-/* ---------- Colors ---------- */
+
+/*      !! Custom Color !!     */
+/*      !! Custom Color !!     */
+
 :root{
     --back: #16161d;
     --white: #F5F5F5;
@@ -30,7 +33,8 @@ body.dark{
 }
 
 
-/* -------------- Start --------------*/
+/*      !! Header Section !!     */
+/*      !! Header Section !!     */
 
 body{
     min-width: 100%;
@@ -56,7 +60,7 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
-    height: 70px;
+    height: 75px;
     width: 100%;
     background-color: var(--light-purple);
     z-index: 100;
@@ -80,14 +84,6 @@ nav .nav-bar .sidebarOpen{
     padding: 5px;
     cursor: pointer;
     display: none;
-}
-
-nav .nav-bar .logo a{
-    font-size: 25px;
-    font-weight: 500;
-    color: var(--white);
-    text-decoration: none;
-    letter-spacing: 2px;
 }
 
 .menu .logo-toggle{
@@ -282,7 +278,6 @@ body.dark .bottom-details{
     background: var(--light-purple);
 }
 
-/* ------------- End Nav Section -------------*/
 
 .header-text{
     margin-top: 22%;
@@ -314,7 +309,9 @@ body.dark .bottom-details{
     color: var(--white);
 }
 
-/*-------- End header section --------*/
+
+/*      !! About Section !!     */
+/*      !! About Section !!     */
 
 
 #about-us{
@@ -421,8 +418,9 @@ body.dark .bottom-details{
     opacity: 10%;
 }
 
-/* ---------- End About Section --------- */
-/* ---------- End About Section --------- */
+
+/*      !! Feature Course !!     */
+/*      !! Feature Course !!     */
 
 
 #feature-course{
@@ -514,7 +512,10 @@ body.dark .bottom-details{
     letter-spacing: 1px;
 }
 
-/*------- End About Section ---------*/
+
+/*      !! Mission Section !!     */
+/*      !! Mission Section !!     */
+
 
 #mission{
     width: 100%;
@@ -566,7 +567,11 @@ body.dark .bottom-details{
     transform: translate(-50%);
     margin-left: 4rem;
 }
-/*--------- End Mission Section --------*/
+
+
+/*      !! Testimonial Section !!     */
+/*      !! Testimonial Section !!     */
+
 
 #testimonial{
     width: 100%;
@@ -600,12 +605,12 @@ body.dark .bottom-details{
     background-position: center;
     color: var(--white);
     width: 100%;
-    height: 350px;
+    height: 400px;
     position: relative;
 }
 .user-text{
-    width: 60%;
-    font-size: 16px;
+    width: 50;
+    font-size: 18px;
     text-align: center;
     line-height: 30px;
     position: absolute;
@@ -613,10 +618,12 @@ body.dark .bottom-details{
     left: 50%;
     transform: translate(-50%, -50%);
     display: none;
+    letter-spacing: .5px;
 }
 .user-text span{
     display: block;
-    margin-top: 70px;
+    height: 100%;
+    margin-top: 40px;
     color: var(--white);
     font-size: 13px;
     font-weight: 500;
@@ -658,7 +665,8 @@ body.dark .bottom-details{
     }
 }
 
-/*--------- End Testimonial Section ---------*/
+/*      !! Teacher Section !!     */
+/*      !! Teacher Section !!     */
 
 #teacher-section{
     width: 100%;
@@ -746,7 +754,9 @@ body.dark .bottom-details{
     font-size: 14px;
 }
 
-/*--------- End Teacher Section ----------*/
+
+/*      !! Footer Section !!     */
+/*      !! Footer Section !!     */
 
 
 footer{
@@ -901,14 +911,12 @@ footer{
     margin-right: 10px;
 }
 
-/*------- Finish Project ---------
 
--------------------------------------------------------
-
-/*--------- Media Quarry ---------*/
+/*      !! Media Quarry !!     */
+/*      !! Media Quarry !!     */
 
 
-@media (max-width: 790px) {
+@media (max-width: 790px){
 
     nav .nav-bar .sidebarOpen{
         display: block;
@@ -959,6 +967,12 @@ footer{
         margin-top: 20px;
     }
 
+    #header{
+        background-color: var(--purple);
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/phone-bg.jpg);
+        background-size: contain;
+    }
+
     .header-text h1{
         margin-top: 85%;
         font-size: 35px;
@@ -977,53 +991,24 @@ footer{
         font-size: 12px;
         font-weight: 500;
     }
-/*----------About--------*/
 
-    .about-row{
-        margin-top: 15%;
-    }
-    .content{
-        position: initial;
-    }
-    .content img{
-        width: 70px;
-    }
-    .content h2{
-        margin: 0;
-        margin-bottom: 15px;
-    }
-    .content p{
-        font-size: 14px;
-    }
-    .content a{
-        margin-top: 20px;
-        font-size: 14px;
-    }
-    .about-1{
-        padding: 5% 5%;
-    }
-    .about-2{
-        padding: 5% 5%;
-    }
-    .about-2 img{
-        width: 60px;
-    }
-    .about-3{
-        padding: 5% 5%;
-    }
-    .about-3 h3{
-        margin-top: 8px;
-        font-size: 18px;
-    }
+/*      !! End Header Section !!     */
+/*      !! End Header Section !!     */
 
-/*-------- Course --------*/
+
+
+/*      !! End About Section !!     */
+/*      !! End About Section !!     */
 
     .course h2{
         width: 80%;
         font-size: 16px;
     }
 
-/* -------- Mission --------- */
+/*      !! End Course Section !!     */
+/*      !! End Course Section !!     */
+
+
     .mission-1, .mission-2{
         flex-basis: 100%;
     }
@@ -1031,6 +1016,11 @@ footer{
         line-height: 30px;
         font-size: 18px;
     }
+
+/*      !! End Mission Section !!     */
+/*      !! End Mission Section !!     */
+
+
     #testimonial .sub-title{
         font-size: 28px;
     }
@@ -1056,7 +1046,10 @@ footer{
         text-align: center;
     }
 
-/*---------- Footer ---------- */
+/*      !! End Testimonial Section !!     */
+/*      !! End Testimonial Section !!     */
+
+
 @media (max-width: 900px){
     .content-boxs{
       flex-wrap: wrap;
@@ -1119,3 +1112,6 @@ footer{
         font-size: 1.6rem;
     }
 }
+
+/*      !! End Footer Section !!     */
+/*      !! End Footer Section !!     */
